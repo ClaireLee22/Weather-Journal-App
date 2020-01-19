@@ -3,7 +3,7 @@
 Web API Project [Udacity Front End Developer Nanodegree]
 
 ## Project Overview
-Combine data from the OpenWeatherMap API and client side(browser) HTML forms to create an asynchronous web app that dynamically update the weather journal for users.
+Combine data from the OpenWeatherMap API and client side(browser) HTML forms to create an asynchronous web app that dynamically update the weather journal for users. Users can enter zipcode to retrieve weather data and leave their feeling for the weather, the web journal app will store the most recent entry and show it on the UI.
 
 
 ## Getting Started
