@@ -5,12 +5,6 @@ let apikey = "&APPID=8a0b899fbbc1ee245a5f197f2d0272b3";
 // Create a new date instance dynamically with JS
 let d = new Date();
 let newDate = (d.getMonth()+1)+'.'+ d.getDate()+'.'+ d.getFullYear();
-console.log("newDate")
-console.log(newDate)
-console.log(d)
-console.log(d.getMonth())
-console.log(d.getDate())
-console.log(d.getFullYear())
 
 // Async GET: Fetch weather data from OpenWeatherApi
 const getData = async (baseURL, zip, key) => {
