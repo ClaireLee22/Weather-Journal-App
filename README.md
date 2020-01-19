@@ -14,8 +14,8 @@ Build a convolutional neural network(CNN) with Keras to classify dog breeds and 
 2. Install express, body-parser, cros 
 	```
 	npm install express
-  npm install body-parser
-  npm install cros
+  	npm install body-parser
+  	npm install cros
 	```  
 
 ## Run Web app
