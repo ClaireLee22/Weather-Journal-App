@@ -26,5 +26,5 @@ node server.js
 
 2. Go to browser
    -  http://localhost:3000
-   <img src="web_API_app.png">
+   <img src="image/web_API_app.png">
 
