@@ -9,7 +9,7 @@ Build a convolutional neural network(CNN) with Keras to classify dog breeds and 
 
 ## Getting Started
 ### Installing
-1. Download Node[https://nodejs.org/en/download/]
+1. [Download Node](https://nodejs.org/en/download/)
 
 2. Install express, body-parser, cros 
 	```
