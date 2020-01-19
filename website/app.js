@@ -1,6 +1,6 @@
 /* Global Variables */
 let baseURL = "https://api.openweathermap.org/data/2.5/weather?zip=";
-let apikey = "&APPID=8a0b899fbbc1ee245a5f197f2d0272b3";
+let apikey = "&APPID=8a0b899fbbc1ee245a5f197f2d0272b3&units=imperial";
 
 // Create a new date instance dynamically with JS
 let d = new Date();
@@ -8,10 +8,9 @@ let newDate = (d.getMonth()+1)+'.'+ d.getDate()+'.'+ d.getFullYear();
 
 // Async GET: Fetch weather data from OpenWeatherApi
 const getData = async (baseURL, zip, key) => {
-    const res = await fetch(baseURL+zip+key);
+    const res = await fetch(baseURL + zip + key);
     try {
-        const data = await res.json();
-        return data;
+        return await res.json();
     } catch(error) {
         console.log("error", error);
     }
@@ -29,16 +28,19 @@ const postData = async ( url= '', data = {} ) => {
     });
     try {
         // Transfer into JSON
-        const newData = await response.json();
-        return newData;
+        return await response.json();
     } catch(error) {
         console.log("error", error);
     }
 }
  
 // Update UI elements
+function getServerData() {
+    return fetch("/allData");
+}
+
 const updateUI = async () => {
-    const request = await fetch("/allData");
+    const request = await getServerData();
     try {
         const allData = await request.json();
         document.getElementById("date").innerHTML = "Date: " + allData.date;
