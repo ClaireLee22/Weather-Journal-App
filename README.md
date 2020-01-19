@@ -24,5 +24,7 @@ Build a convolutional neural network(CNN) with Keras to classify dog breeds and 
 node server.js
 ```
 
-2. Go to browser,http://localhost:3000
+2. Go to browser
+   -  http://localhost:3000
+   <img src="web_API_app.png">
 
