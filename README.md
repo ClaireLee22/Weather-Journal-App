@@ -3,13 +3,12 @@
 Web API Project [Udacity Front End Developer Nanodegree]
 
 ## Project Overview
-### Project Description
-Build a convolutional neural network(CNN) with Keras to classify dog breeds and then turn the code into a web app using Flask. Given an image of a dog, the model will identify an estimate of the canine’s breed. If supplied an image of a human, the code will identify the resembling dog breed and overlay filters with dog's ears, nose and tongue.
+Combine data from the OpenWeatherMap API and client side(browser) HTML forms to create an asynchronous web app that dynamically update the weather journal for users.
 
 
 ## Getting Started
 ### Installing
-1. [Download Node](https://nodejs.org/en/download/)
+1. [Download node.js](https://nodejs.org/en/download/)
 
 2. Install express, body-parser, cros 
 	```
